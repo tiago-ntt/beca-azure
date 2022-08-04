@@ -1,0 +1,9 @@
+{
+	"name": "beca-data-factory-tiagoers",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b7cfb4d5-afa0-4796-9a09-a710c2569e09",
+		"tenantId": "a49e2ad8-3b8d-40e8-8c45-1505c9a243d3"
+	}
+}
