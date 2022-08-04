@@ -27,7 +27,7 @@
 						}
 					},
 					"dataset": {
-						"referenceName": "dataset_csv",
+						"referenceName": "dataset_parameter",
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "raw",
