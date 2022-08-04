@@ -1,0 +1,10 @@
+{
+	"name": "beca_key_vault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-beca-tiagoers.vault.azure.net/"
+		}
+	}
+}

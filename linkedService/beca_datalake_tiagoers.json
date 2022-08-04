@@ -1,0 +1,20 @@
+{
+	"name": "beca_datalake_tiagoers",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datalaketiagoers.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "beca_key_vault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "storage-key",
+				"secretVersion": "7538b4f8f9fb4032b974c8f7f90f6290"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
+}

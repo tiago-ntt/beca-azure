@@ -1,0 +1,22 @@
+{
+	"name": "dataset_csv_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "beca_datalake_tiagoers",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "input/csv",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
