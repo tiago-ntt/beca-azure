@@ -1,0 +1,9 @@
+{
+	"name": "adf_bronze_csv",
+	"properties": {
+		"folder": {
+			"name": "bronze"
+		},
+		"annotations": []
+	}
+}
