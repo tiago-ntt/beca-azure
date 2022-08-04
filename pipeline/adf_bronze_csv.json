@@ -81,7 +81,25 @@
 										},
 										"userProperties": [],
 										"typeProperties": {
-											"notebookPath": "/Users/treissil@emeal.nttdata.com/Data/Beca/csv_ingestion"
+											"notebookPath": "/Users/treissil@emeal.nttdata.com/Data/Beca/csv_ingestion",
+											"baseParameters": {
+												"file_name": {
+													"value": "@item().fileName",
+													"type": "Expression"
+												},
+												"table_name": {
+													"value": "@item().table",
+													"type": "Expression"
+												},
+												"database": {
+													"value": "@item().database",
+													"type": "Expression"
+												},
+												"delimiter": {
+													"value": "@item().delimiter",
+													"type": "Expression"
+												}
+											}
 										},
 										"linkedServiceName": {
 											"referenceName": "link_server_databricks",
