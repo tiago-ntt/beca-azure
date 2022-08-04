@@ -49,7 +49,14 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Lookup parameters').output.value",
+						"type": "Expression"
+					},
+					"batchCount": 5
+				}
 			}
 		],
 		"folder": {
