@@ -79,7 +79,14 @@
 											"secureOutput": false,
 											"secureInput": false
 										},
-										"userProperties": []
+										"userProperties": [],
+										"typeProperties": {
+											"notebookPath": "/Users/treissil@emeal.nttdata.com/Data/Beca/csv_ingestion"
+										},
+										"linkedServiceName": {
+											"referenceName": "link_server_databricks",
+											"type": "LinkedServiceReference"
+										}
 									}
 								]
 							}
